@@ -98,6 +98,24 @@ header #navbar button {
   background: #6a4df4;
   margin-bottom: 99px;
 }
+#banner .banner ul {
+  margin-left: -30px;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding-bottom: 53px;
+}
+#banner .banner ul li {
+  width: 24px;
+  height: 24px;
+  background: #4756df;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#banner .banner ul li:hover {
+  border: 2px solid #fff;
+}
 
 #success {
   margin-top: 170px;

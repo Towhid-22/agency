@@ -36,5 +36,23 @@
       @include buttons;
       margin-bottom: 99px;
     }
+    ul{
+      margin-left: -30px;
+      display: flex;
+      justify-content: center;
+      gap: 2px;
+      padding-bottom: 53px;
+      li{
+        width: 24px;
+        height: 24px;
+        background: #4756df;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover{
+          border: 2px solid #fff;
+        }
+      }
+    }
   }
 }
